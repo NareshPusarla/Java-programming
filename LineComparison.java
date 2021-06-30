@@ -16,8 +16,8 @@ public class LineComparison{
 		int y2 = sc4.nextInt();
 
 		System.out.println("Welcome to Line Comparison Computation Program on Master Branch");
-		LineComparisonCode l = new LineComparisonCode();
-		double result = l.length(x1,x2,y1,y2);
-		System.out.println("Length of 2 points" + result);
+		LineComparisonEqual l = new LineComparisonEqual();
+		boolean result = l.isEqual(x1,x2,y1,y2);
+		System.out.println("Length of 2 points are equal or not" + result);
 	}
 }
